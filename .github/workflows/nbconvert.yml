@@ -1,0 +1,34 @@
+name: nbconvert
+
+on:
+  push:
+    paths:
+      - 'test.ipynb'
+    branches:
+      - master
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+
+    - name: Install dependencies
+      run: python -m pip install jupyter nbconvert
+
+    - name: Convert notebook to HTML
+      run: jupyter nbconvert --execute --no-input --output=index.html test.ipynb
+
+    - name: Commit and push generated HTML
+      run: |
+        git config user.name "GitHub Actions"
+        git config user.email "github-actions-bot@users.noreply.github.com"
+        git add index.html
+        git commit -m "Updated HTML output from Jupyter notebook"
+        git push origin master

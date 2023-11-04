@@ -19,8 +19,8 @@ jobs:
       run: python -m pip install jupyter nbconvert
 
     - name: Convert notebook to HTML
-      run: jupyter nbconvert --execute --no-input --output=index.html test.ipynb
-
+      run: jupyter nbconvert --execute --to html --output=index.html test.ipynb
+      
     - name: Commit and push generated HTML
       run: |
         git config user.name "GitHub Actions"

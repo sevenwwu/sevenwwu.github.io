@@ -2,6 +2,8 @@ name: nbconvert
 
 on:
   push:
+    paths:
+      - 'test.ipynb'
 
 jobs:
 

@@ -1,11 +1,7 @@
 name: nbconvert
 
 on:
-  push:
-    paths:
-      - 'test.ipynb'
-    branches:
-      - master
+  workflow_dispatch:
 
 jobs:
 

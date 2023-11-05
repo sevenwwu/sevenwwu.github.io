@@ -3,7 +3,7 @@ name: nbconvert
 on:
   push:
     paths:
-      - 'project.ipynb'
+      - 'Data Science 311 Findings.ipynb'
 
 jobs:
 
@@ -23,7 +23,7 @@ jobs:
       run: python -m pip install jupyter nbconvert matplotlib
 
     - name: Convert notebook to HTML
-      run: jupyter nbconvert --execute --to html --output=index.html project.ipynb
+      run: jupyter nbconvert --execute --to html --output=index.html "Data Science 311 Findings.ipynb"
 
     - name: Commit and push
       run: |

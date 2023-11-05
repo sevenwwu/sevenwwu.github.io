@@ -3,7 +3,7 @@ name: nbconvert
 on:
   push:
     paths:
-      - 'test.ipynb'
+      - 'project.ipynb'
 
 jobs:
 
@@ -31,4 +31,4 @@ jobs:
         git config user.email "github-actions-bot@users.noreply.github.com"
         git add index.html
         git commit -m "Updated HTML output"
-        git push https://github.com/sevenwwu/sevenwwu.github.io.git HEAD:main
+        git push HEAD:main

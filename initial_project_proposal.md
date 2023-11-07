@@ -38,11 +38,11 @@ And the following board game questions:
 We will use python for exploratory data analysis, data visualization, and machine learning. This will be used to find patterns among demographics and board games as well as predict ones exposure to board games given a specific set of demographics. 
 
 
-## Milestone 1 deliverable:
+## Milestone 1 Deliverable:
 
 <!--TODO--> 
 
-## Milestone 2 deliverable:
+## Milestone 2 Deliverable:
 
 <!--TODO--> 
 

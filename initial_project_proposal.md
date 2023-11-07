@@ -1,7 +1,7 @@
 #  **Board Game Behavior: An Analysis of Demographics and Gameplay Preferences**
 
 ## **Authors**: 
-Dario, Marie, Seven
+Dario Leyva-Brown, Marie Lawler, Seven Lewis
 
 
 ## **Question:** How does ones demographics relate to exposure to board games?
@@ -11,7 +11,7 @@ Dario, Marie, Seven
 
 The data we are using for our project will be gathered genuinely through survey. The data does is exist but will take some amount of time to acquire. 
 
-As of 11/6/23, we have 40 responses to our survey but plan to reach around 250 to 500 responses.
+As of November 6th, 2023, we have 40 responses to our survey but plan to reach around 250 to 500 responses.
 
 The data itself will be structured as individual response rows with each feature being a different question. The survey questions inquire about the following demographics:
 - Student/Faculty Member Status
@@ -36,3 +36,16 @@ And the following board game questions:
 ## **Goal:**
 
 We will use python for exploratory data analysis, data visualization, and machine learning. This will be used to find patterns among demographics and board games as well as predict ones exposure to board games given a specific set of demographics. 
+
+
+## Milestone 1 deliverable:
+
+<!--TODO--> 
+
+## Milestone 2 deliverable:
+
+<!--TODO--> 
+
+## Roadmap:
+
+<!--TODO--> 

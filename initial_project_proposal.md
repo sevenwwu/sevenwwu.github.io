@@ -29,20 +29,28 @@ And the following board game questions:
 - Frequency of Board Game Play
 - Style of Player
 - Desirable Gameplay Elements
-- List Desired Board Games
+- Enjoyed Board Games
 - Scale Rating of Chess
-- Select Desired Board Game Genres
+- Desirable Board Game Genres
 
 ## **Goal:**
 
 We will use python for exploratory data analysis, data visualization, and machine learning. This will be used to find patterns among demographics and board games as well as predict ones exposure to board games given a specific set of demographics. 
 
 
-## Milestone 1 Deliverable:
+## Milestone 1 Deliverable (11/18/23):
 
-<!--TODO--> 
+Conditions for Milestone 1, otherwise pivot:
+ - Data acquired will be at minimum (100 responses).
+ - Data cleaning pipeline will be built
+ - Exploratory analysis pipeline will be built for current and future responses.
+    * Result must not appear null
+ - Description write up for current project
 
-## Milestone 2 Deliverable:
+If conditions are not met, we will submit another initial project deliverable alongside Milestone 1 (back-up dataset).
+
+
+## Milestone 2 Deliverable (12/2/23):
 
 <!--TODO--> 
 

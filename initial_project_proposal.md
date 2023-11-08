@@ -52,8 +52,19 @@ If conditions are not met, we will submit another initial project deliverable al
 
 ## Milestone 2 Deliverable (12/2/23):
 
-<!--TODO--> 
+ - Exploratory analysis will be completed and polished
+ - Prediction model will be completed
 
 ## Roadmap:
 
-<!--TODO--> 
+ - collect survey resopnses
+   * 11/9 advertise in Red Square
+   * Member in charge: Seven
+ - Data cleaning (by milestone 1)
+   * Member in charge: Marie
+ - Exploratory analysis/vizualization (by milestone 1)
+   * Member in charge: Dario
+ - Predictive model
+   * Member in charge: Seven
+ - Write-up
+   * Member in charge: Marie

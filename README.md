@@ -1,3 +1,3 @@
-[link](\Data Science 311 Findings.ipynb)
+[jupyter notebook]("\Data Science 311 Findings.ipynb")
 
-[init project](\initial_project_proposal.md)
+[init project prop](\initial_project_proposal.md)

@@ -1,3 +1,5 @@
+<script src="https://rawcdn.githack.com/oscarmorrison/md-page/master/md-page.js"></script><noscript>
+
 #  **Board Game Behavior: An Analysis of Demographics and Gameplay Preferences**
 
 ## **Authors**: 

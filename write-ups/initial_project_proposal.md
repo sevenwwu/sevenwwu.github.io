@@ -35,7 +35,7 @@ And the following board game questions:
 
 ## **Goal:**
 
-We will use python for exploratory data analysis, data visualization, and machine learning. This will be used to find patterns among demographics and board games as well as predict ones exposure to board games given a specific set of demographics. 
+We will use Python for exploratory data analysis, data visualization, and machine learning. This will be used to find patterns among demographics and board games as well as predict ones exposure to board games given a specific set of demographics. 
 
 
 ## Milestone 1 Deliverable (11/18/23):
@@ -57,12 +57,11 @@ If conditions are not met, we will submit another initial project deliverable al
 
 ## Roadmap:
 
- - collect survey resopnses
-   * 11/9 advertise in Red Square
+ - Collect Survey Responses
    * Member in charge: Seven
- - Data cleaning (by milestone 1)
+ - Data Cleaning (by Milestone 1)
    * Member in charge: Marie
- - Exploratory analysis/vizualization (by milestone 1)
+ - Exploratory Analysis/Visualization (by Milestone 1)
    * Member in charge: Dario
  - Predictive model
    * Member in charge: Seven

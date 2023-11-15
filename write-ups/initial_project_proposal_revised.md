@@ -86,6 +86,6 @@ If these criteria are not met, we will submit an alternative initial project del
 
 **Machine Learning:**
 - We will experiment with a range of classifiers to predict demographic information from gameplay preferences and vice versa.
-- Potential models include Random Forest, Linear Regression, and k-nearest neighbor.
+- Potential models include Random Forest, Logistic Regression, and k-nearest neighbor.
 - We will conduct hyperparameter tuning to optimize model performance.
-- We aim to evaluate models based on accuracy and R2 score.
+- We aim to evaluate models based on accuracy, precision, and recall.

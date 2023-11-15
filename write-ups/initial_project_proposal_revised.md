@@ -46,10 +46,17 @@ Criteria for Milestone 1 achievement (otherwise, we will pivot):
 
 If these criteria are not met, we will submit an alternative initial project deliverable alongside Milestone 1 using a backup dataset.
 
+If criteria is met we will have complete:
+ - Description of data pipeline
+ - Some data exploratory analysis complete
+ - Evaluation environment for prediction task set up
+ - General progress report
+
 ## Milestone 2 Deliverable (12/2/23):
 
- - Complete and refine the exploratory analysis
- - Finalize the predictive model
+ - Finalization and description of our complete exploratory analysis
+ - Finalization and description of our complete predictive model
+ - General progress report
 
 ## Roadmap:
 

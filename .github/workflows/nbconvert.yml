@@ -25,6 +25,7 @@ jobs:
         python -m pip install jupyter nbconvert matplotlib
         python -m pip install pandas
         python -m pip install openpyxl
+        python -m pip install seaborn
 
     - name: Convert notebook to HTML
       run: jupyter nbconvert --execute --to html --output=index.html "Data Science 311 Findings.ipynb"

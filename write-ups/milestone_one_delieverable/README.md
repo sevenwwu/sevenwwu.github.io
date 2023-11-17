@@ -31,7 +31,8 @@ Dario Leyva-Brown, Marie Lawler, Seven Lewis
   - Manually bucket answers to "Area of Study", transforming a bunch of difficult to parse strings into categorical values like "STEM", "Arts & Humanities", and "Social Studies".
   - Shorting the answer choices for "Style of Player" to something concise for data analysis purposes.
 - Data Exploration 
-  - TODO
+  - Still in the early stages for finding meaningful trends in the data.
+  - Promising relationships for both area of study catagories and gender against board games stats.
 
 ## Artifacts
 
@@ -63,8 +64,8 @@ The search for additional datasets, despite not being used due to the adequacy o
 
 # Roadmap
 
-- Team will finish exploring dataset for trends and meaningful correlations for use in the machine learning aspect of the project. 
+- Team will finish exploring dataset for trends and meaningful correlations for use in the machine learning aspect of the project.
 
-- Team will establish Machine Learning environment for model training, validation, testing
+- Team will establish Machine Learning environment for model training, validation, testing.
 
 - Team will explore different Machine Learning models like RandomForestRegression, K-NearestNeighbor, and Logistic Regression on decided features.

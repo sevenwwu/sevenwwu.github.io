@@ -14,23 +14,32 @@ Dario Leyva-Brown, Marie Lawler, Seven Lewis
 - [x] A data cleaning pipeline has been established  
     
 - [x] An exploratory analysis pipeline will have been built for current and future response
-- Results do not appear null
+  - Results do not appear null
 
 - [x] A descriptive write-up for the current stage of the project will have been produced
 
 **More Descriptive Explanation of Data Cleaning and Exploration:**
-- Data Cleaning
-  - Categorical Types for single choice
-  - Bit field/ bool types for multiple choice
-  - Manual bucketing of Area of Study/Major feature
+- [Data Cleaning](data_curation_readme.md)
+  - Drop metadata (ID, Start time, Completion time, Email, Name, Last modified time).
+  - Rename raw fields from question to concise descriptions.
+  - Take the multiselect questions (Race, Desirable Gameplay Elements, Desirable Board Game Genres) and expand them to bit/bool field features.
+    - For instance, the "Desirable Gameplay Elements" feature expands to:
+      - Conflict/CompetitionIsPreferredElement
+      - CooperationIsPreferredElement
+      - LuckIsPreferredElement
+      - ...
+  - Manually bucket answers to "Area of Study", transforming a bunch of difficult to parse strings into categorical values like "STEM", "Arts & Humanities", and "Social Studies".
+  - Shorting the answer choices for "Style of Player" to something concise for data analysis purposes.
 - Data Exploration 
   - TODO
 
 ## Artifacts
 
 - [sevenwwu.github.io](https://sevenwwu.github.io/)
-- [curated_dataset.csv](TODO) //TODO
-- [Data Science 311 Findings.ipynb](../../Data%20Science%20311%20Findings.ipynb)
+- [Data Curation](data_curation_readme.md)
+- [curated_dataset.csv](curated_dataset.csv) (as of 11/17/23)
+- [Data Science 311 Findings.ipynb](../../Data%20Science%20311%20Findings.ipynb) (as of 11/17/23)
+- [Survey Outline](surveyoutline.md)
 - [QR Code Survey Image](survey%20qr-updated.png)
 
 # Faults
@@ -49,11 +58,13 @@ The search for additional datasets, despite not being used due to the adequacy o
 [Real Estate Sales in Connecticut 2001-2020](https://catalog.data.gov/dataset/real-estate-sales-2001-2018)
 - [Notebook](real_estate.ipynb)
 
-//TODO
+[Linguist Dataset](https://www.kaggle.com/datasets/mozillaorg/common-voice?select=cv-other-train.csv)
+- [Notebook](linguist.ipynb)
 
 # Roadmap
 
-//TODO
-- Team will explore dataset for trends and meaningful correlations (Exploratory analysis complete)
+- Team will finish exploring dataset for trends and meaningful correlations for use in the machine learning aspect of the project. 
 
-- Team will explore different Machine Learning models on decided features (Forest, KNearestNeighbor)
+- Team will establish Machine Learning environment for model training, validation, testing
+
+- Team will explore different Machine Learning models like RandomForestRegression, K-NearestNeighbor, and Logistic Regression on decided features.

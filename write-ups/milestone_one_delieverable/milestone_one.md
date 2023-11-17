@@ -7,16 +7,16 @@ Dario Leyva-Brown, Marie Lawler, Seven Lewis
 
 # Current Completion
 
-**Requirements to not pivot met (from Initial Project Proposal):**
+**Fulfillment of Non-Pivot Conditions (as detailed in Initial Project Proposal):**
 
-[x] Minimum data acquired (at least 100 responses)
+- [x] Minimum data acquired (at least 100 responses)
 
-[x] A data cleaning pipeline has been established  
+- [x] A data cleaning pipeline has been established  
     
-[x] An exploratory analysis pipeline will have been built for current and future response
+- [x] An exploratory analysis pipeline will have been built for current and future response
 - Results do not appear null
 
-[x] A descriptive write-up for the current stage of the project will have been produced
+- [x] A descriptive write-up for the current stage of the project will have been produced
 
 **More Descriptive Explanation of Data Cleaning and Exploration:**
 - Data Cleaning
@@ -29,7 +29,7 @@ Dario Leyva-Brown, Marie Lawler, Seven Lewis
 ## Artifacts
 
 - [sevenwwu.github.io](https://sevenwwu.github.io/)
-- [curated_dataset.csv](TODO)
+- [curated_dataset.csv](TODO) //TODO
 - [Data Science 311 Findings.ipynb](../../Data%20Science%20311%20Findings.ipynb)
 - [QR Code Survey Image](survey%20qr-updated.png)
 
@@ -48,6 +48,8 @@ The search for additional datasets, despite not being used due to the adequacy o
 
 [Real Estate Sales in Connecticut 2001-2020](https://catalog.data.gov/dataset/real-estate-sales-2001-2018)
 - [Notebook](real_estate.ipynb)
+
+//TODO
 
 # Roadmap
 

@@ -36,11 +36,11 @@ Dario Leyva-Brown, Marie Lawler, Seven Lewis
 ## Artifacts
 
 - [sevenwwu.github.io](https://sevenwwu.github.io/)
-- [Data Curation](data_curation_readme.md)
+- [data_curation_readme.md](data_curation_readme.md)
 - [curated_dataset.csv](curated_dataset.csv) (as of 11/17/23)
 - [Data Science 311 Findings.ipynb](../../Data%20Science%20311%20Findings.ipynb) (as of 11/17/23)
-- [Survey Outline](surveyoutline.md)
-- [QR Code Survey Image](survey%20qr-updated.png)
+- [surveyoutline.md](surveyoutline.md)
+- [survey qr-updated.png](survey%20qr-updated.png)
 
 # Faults
 As the survey responses initially appeared insufficient, we spent some time seeking out alternative datasets, which resulted in a delay in our progress. Nevertheless, we have decided to proceed with the survey data we have and are now working to catch up and move forward with our analysis.
@@ -58,8 +58,8 @@ The search for additional datasets, despite not being used due to the adequacy o
 [Real Estate Sales in Connecticut 2001-2020](https://catalog.data.gov/dataset/real-estate-sales-2001-2018)
 - [Notebook](real_estate.ipynb)
 
-[Linguist Dataset](https://www.kaggle.com/datasets/mozillaorg/common-voice?select=cv-other-train.csv)
-- [Notebook](linguist.ipynb)
+[Common Voice](https://www.kaggle.com/datasets/mozillaorg/common-voice?select=cv-other-train.csv)
+- [Notebook](common_voice.ipynb)
 
 # Roadmap
 

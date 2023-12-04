@@ -7,11 +7,11 @@ Dario Leyva-Brown, Marie Lawler, Seven Lewis
 
 ## Current Completion
 
-[x] Survey Distribution
+- [x] Survey Distribution
   - The survey has received 243 responses that can be used for analysis as of 12/3/23
   - The data cleaning pipeline was updated to properly bucket the new freeform text responses for Area of Study
 
-[x] Exploratory Analysis
+- [x] Exploratory Analysis
   - Progress from **Milestone 1**
     - The Milestone 1 roadmap outlines the exploratory analysis like so:
       > Team will finish exploring dataset for trends and meaningful correlations for use in the machine learning aspect of the project.
@@ -87,7 +87,7 @@ Dario Leyva-Brown, Marie Lawler, Seven Lewis
             ![clusters board game elements](image.png)
             ![clusters board game genres](image-1.png)
 
-[x] Machine Learning Predictive Task
+- [x] Machine Learning Predictive Task
   - Progress from **Milestone 1**
     - The Milestone 1 roadmap outlines the predictive task like so:
       > - Team will establish Machine Learning environment for model training, validation, testing.

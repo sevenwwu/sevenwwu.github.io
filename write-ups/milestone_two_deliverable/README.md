@@ -1,5 +1,5 @@
 
-# **Milestone 1:** Board Game Behavior: An Analysis of Demographics and Gameplay Preferences
+# **Milestone 2:** Board Game Behavior: An Analysis of Demographics and Gameplay Preferences
 
  
 ## **Authors**:

@@ -5,6 +5,8 @@
 ## **Authors**:
 Dario Leyva-Brown, Marie Lawler, Seven Lewis
 
+## [Jupyter Notebook](../../Data%20Science%20311%20Findings.ipynb)
+
 ## Current Completion
 
 - [x] Survey Distribution
@@ -84,8 +86,8 @@ Dario Leyva-Brown, Marie Lawler, Seven Lewis
           - Those of Cluster 1 are slightly more favorable to Chess
           - But most notably:
             - Those of Cluster 1 are significantly more likely to select any Board Game Element and Genre. 
-            ![clusters board game elements](image.png)
-            ![clusters board game genres](image-1.png)
+            ![clusters board game elements](clusters_board_game_elements.png)
+            ![clusters board game genres](clusters_board_game_genres.png)
 
 - [x] Machine Learning Predictive Task
   - Progress from **Milestone 1**
@@ -97,8 +99,16 @@ Dario Leyva-Brown, Marie Lawler, Seven Lewis
       This has also been completed in full. 
   - Description
     - First Attempt: Demographics Predict Board Game Stats
+      - This applications of this are quite clear: we can see if someone's online profile makes them likely to buy board games. Those who play them frequently, own many, or are otherwise invested in board games are likely to buy more of board games, and if we can figure out who is most likely to be that subset of people, we make money. 
       - Because most demographic results did not yield the sufficient diversity of answers, I was only able to select "Gender", "Age", "Area of Study", and "Religiosity."
       - This unfortunately was insufficient for reliably predicting board game stats like "BoardGamesOwned", "FrequencyOfPlay", "ChessRating", and "Style". I was able to preform better than the baseline with all models I constructed, however, depending on the model, the $R^2$ score was still near 0, or the accuracy was significantly worse than 50%. 
       - I used both LogisticRegression and LinearRegression depending on if I first transformed the y with an Ordinal Encoder. This made sense for the ordered categorical variables "BoardGamesOwned", "FrequencyOfPlay", and "ChessRating". Otherwise I would use Logistic Regression 
     - Second Attempt: Board Game Stats Predict Gender
-      - This pivot was necessary because of the poor performance of the previous models, however, it still 
+      - This pivot was necessary because of the poor performance of the previous models, however, it still an interesting question. Inferring gender based on specific behaviors and reported data is used for targeted ad tracking, which is a real world use case. Additionally, we can speak to how games should be and can be more accessible such that they appeal to greater demographics, including across genders.
+      - We got a wealth of sufficient distribution on "Gender" and Board Game related stats.
+      - Applying Logistic Regression to the data set, we get an accuracy score of 74% across 4 cross validation folds. This performs significantly better than both baselines, most_frequent and uniform, which got scores of which averaged 52% and 53% respectively. 
+      - The Random Forest Classifier also seemed to do decently at 64% accuracy. Because Logistic Regression isn't prime for hyper-parameterization, I selected the Random Forest Classifier for Hyper Parameter tuning. 
+      - Utilizing RandomizedSearchCV, it was able to improve the cross validation accuracy to 72%.
+      - Running this tuned Random Forest Classifier on the test set yields 79% accuracy
+      - Baseline Most_Frequent yields 52% accuracy on the test set
+      - Baseline Uniform yields 43% accuracy on the test set

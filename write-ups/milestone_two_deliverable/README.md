@@ -68,11 +68,25 @@ Dario Leyva-Brown, Marie Lawler, Seven Lewis
       - Style against multi-select features
         - "Casual" players prefer games with Party/Low-Stakes significantly more than both "Situation-Specific" and "Strategic" players
         - "Situation-Specific" players prefer the genre's "Adventure", "Deduction", "Fantasy", and "Puzzle" over both "Situation-Specific" and "Strategic" players
-        - "Strategic" players tend to prefer  
+        - "Strategic" players don't have many preferences that are much greater than either, but they do tend to dis-prefer "Cooperation", "Party/Low-Stakes", "Trivia", "Animals", and "Memory".  
       - AOS against multi-select features
-        - # TO DO
-      - Clustering ML
-        - # TO DO
+        - Board Game Elements appear to be largely selected independently of Area of Study. However:
+        - Luck is significantly more likely to be selected if you are not Area of Study is not "Arts & Humanities" or "Stem", or you selected "Undecided/Unknown."
+        - You are slightly more likely to prefer "Party-Low/Stakes" if your Area of Study is "Arts & Humanities" or "Unknown" 
+      - Clustering Machine Learning
+        - I choose to also do a portion of the Machine Learning in the Exploratory Analysis to hopefully uncover specific patterns. 
+        - The K-Means clustering algorithm was applied to the entire data set (excluding freeform text entry). 2 clusters yielded the greatest silhouette score of 0.1186 with the next nearest being 3 clusters at 0.0593. 
+        - Graphing all features against the cluster assignments, we learn that the clustering algorithm has appeared to labeled the "Board Game Enthusiasts". The notable distribution observations are below: 
+          - Most demographic features seem to be independent to this clustering.
+          - Those of Cluster 1 have the BoardGamesOwned cluster have the bell curve shifted right, such that they are more likely to select the category "2 to 5", "5 to 10", "10 to 20", and "More than 20" 
+          - Those of Cluster 1 also appear to generally play games more frequently, but this is less obvious than the previous note
+          - Those of Cluster 1 are most likely to be "Situation-Specific" in terms of style.
+          - Those of Cluster 1 are slightly more favorable to Chess
+          - But most notably:
+            - Those of Cluster 1 are significantly more likely to select any Board Game Element and Genre. 
+            ![clusters board game elements](image.png)
+            ![clusters board game genres](image-1.png)
+
 [x] Machine Learning Predictive Task
   - Progress from **Milestone 1**
     - The Milestone 1 roadmap outlines the predictive task like so:
@@ -82,4 +96,9 @@ Dario Leyva-Brown, Marie Lawler, Seven Lewis
 
       This has also been completed in full. 
   - Description
-    - # TO DO
+    - First Attempt: Demographics Predict Board Game Stats
+      - Because most demographic results did not yield the sufficient diversity of answers, I was only able to select "Gender", "Age", "Area of Study", and "Religiosity."
+      - This unfortunately was insufficient for reliably predicting board game stats like "BoardGamesOwned", "FrequencyOfPlay", "ChessRating", and "Style". I was able to preform better than the baseline with all models I constructed, however, depending on the model, the $R^2$ score was still near 0, or the accuracy was significantly worse than 50%. 
+      - I used both LogisticRegression and LinearRegression depending on if I first transformed the y with an Ordinal Encoder. This made sense for the ordered categorical variables "BoardGamesOwned", "FrequencyOfPlay", and "ChessRating". Otherwise I would use Logistic Regression 
+    - Second Attempt: Board Game Stats Predict Gender
+      - This pivot was necessary because of the poor performance of the previous models, however, it still 
